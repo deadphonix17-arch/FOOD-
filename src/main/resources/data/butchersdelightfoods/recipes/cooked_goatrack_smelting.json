@@ -1,0 +1,1 @@
+{"type": "minecraft:smelting", "category": "food", "ingredient": {"item": "butchersdelightfoods:goatrack"}, "result": "butchersdelightfoods:cooked_goatrack", "experience": 0.35, "cookingtime": 200}

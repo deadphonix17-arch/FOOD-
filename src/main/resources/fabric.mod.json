@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "butchersdelightfoods",
+  "version": "1.0.0",
+  "name": "Butcher's Delight Foods (Fabric addon)",
+  "description": "Registers the butchersdelightfoods:* meat cuts that Butcher's Delight (Fabric) drops.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "addon.butchersfoods.FoodsAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "butchersdelight": "*"
+  }
+}
